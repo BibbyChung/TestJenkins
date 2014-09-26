@@ -20,7 +20,7 @@ namespace UnitTestProject1
         [Then(@"the result should be (.*) on the screen")]
         public void ThenTheResultShouldBeOnTheScreen(int p0)
         {
-            Assert.IsTrue(true);
+            Assert.IsTrue(false);
         }
     }
 }
